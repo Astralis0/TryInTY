@@ -50,11 +50,12 @@ function generator(){
                         descriptionM = document.createElement("p")
                         descriptionM.classList.add("mobile")
                         descriptionMTitle = document.createElement("h3")
-                        descriptionMTitle.textContent = "Description"
+                        descriptionMTitle.textContent = "Description: "
                         descriptionMTitle.classList.add("description", "mobile")
                         descriptionM.textContent = businessData["Description"]
 
                         textColumn.appendChild(descriptionMTitle)
+                        textColumn.appendChild(document.createElement("br"))
                         textColumn.appendChild(descriptionM)
 
 
